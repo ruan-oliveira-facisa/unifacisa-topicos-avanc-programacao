@@ -1,0 +1,18 @@
+2023-09-20T12:46:23.097-03:00  INFO 13420 --- [main] c.f.t.a.m.p.t.TapProjeto03Application    : Starting TapProjeto03Application using Java 20.0.1 with PID 13420 (C:\Users\adm.rpierre\eclipse-workspace-2023-06\tapProjeto03\target\classes started by adm.rpierre in C:\Users\adm.rpierre\eclipse-workspace-2023-06\tapProjeto03)
+2023-09-20T12:46:23.099-03:00  INFO 13420 --- [main] c.f.t.a.m.p.t.TapProjeto03Application    : No active profile set, falling back to 1 default profile: "default"
+2023-09-20T12:46:23.968-03:00  INFO 13420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-20T12:46:23.980-03:00  INFO 13420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-20T12:46:23.980-03:00  INFO 13420 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-20T12:46:24.083-03:00  INFO 13420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-20T12:46:24.083-03:00  INFO 13420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 927 ms
+2023-09-20T12:46:24.374-03:00  INFO 13420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-20T12:46:24.382-03:00  INFO 13420 --- [main] c.f.t.a.m.p.t.TapProjeto03Application    : Started TapProjeto03Application in 1.686 seconds (process running for 1.994)
+2023-09-20T12:46:50.111-03:00  INFO 13420 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-20T12:46:50.111-03:00  INFO 13420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-20T12:46:50.113-03:00  INFO 13420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-20T12:46:50.339-03:00  INFO 13420 --- [http-nio-8080-exec-1] c.f.t.a.m.p.t.c.PrimeiroController       : Resultado da Chamada REST: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
